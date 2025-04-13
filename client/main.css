@@ -1,0 +1,33 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.chat-history {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+}
+
+.message.user {
+  background-color: #d1e7dd;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.message.ai {
+  background-color: #f8d7da;
+  align-self: flex-start;
+  text-align: left;
+}
